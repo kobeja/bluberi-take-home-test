@@ -4,14 +4,18 @@ A small 3x3 slot app that only pays if the middle row matches.
 # How to run the project locally
 Note: This project requires Node.js to run locally. If you don't have node you can install it from https://nodejs.org
 
-- open a new terminal at the folder root `bluberi-take-home-assignment`
+- clone this repository or download it as a ZIP file
+- open a new terminal at the project root
+    - If you downloaded the repo as a ZIP, the project root will be `../bluberi-take-home-test-main/bluberi-take-home-test-main`
     - Most operating systems will allow you to right-click within the folder and open a terminal
-    - If not, you can also run this command cd {your drive}\{your directory}\bluberi-take-home-assignment
-        - Example: `cd F:\downloads\bluberi-take-home-assignment`
+    - If not, you can run this command `cd {your drive}\{your directory}\bluberi-take-home-assignment` to open the project root
+        - Example: `cd D:\downloads\bluberi-take-home-test-main`
 
-- once inside the project, run `npm install` to install the projects dependencies
-- run `npm run dev` to build and host the project
+- once inside the project, run the command `npm install` to install the projects dependencies
+- run the command `npm run dev` to build and host the project
 - open a browser at `http://localhost:5173/`
+
+- when finished with the app, return to your terminal and click `CTRL + C` to close the local web server
 
 # Key architecture decisions
 - Separation of concerns (UI logic, busniess logic, data sourcing)
