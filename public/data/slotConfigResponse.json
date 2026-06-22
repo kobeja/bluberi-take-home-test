@@ -1,0 +1,46 @@
+{
+  "name": "Diamond Rush",
+  "id": 523166234,
+  "reelCount": 3,
+  "rowCount": 3,
+  "symbolPool": [
+    {
+      "id": 351321266,
+      "name": "Cherry",
+      "symbolIcon": "🍒"
+    },
+    {
+      "id": 153216231,
+      "name": "Lemon",
+      "symbolIcon": "🍋"
+    },
+    {
+      "id": 623621351,
+      "name": "Watermelon",
+      "symbolIcon": "🍉"
+    },
+    {
+      "id": 234610293,
+      "name": "Bell",
+      "symbolIcon": "🔔"
+    },
+    {
+      "id": 980180192,
+      "name": "Strawberry",
+      "symbolIcon": "🍓"
+    },
+    {
+      "id": 551235235,
+      "name": "Diamond",
+      "symbolIcon": "💎"
+    }
+  ],
+  "payTable": {
+    "351321266": 100,
+    "153216231": 300,
+    "623621351": 1000,
+    "234610293": 5000,
+    "980180192": 10000,
+    "551235235": 25000
+  }
+}
